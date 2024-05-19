@@ -1,0 +1,129 @@
+.w-h{
+    width: 40px;
+    height: 40px;
+}
+.title{
+    padding-top: 9px;
+    font-weight: bold;
+    font-size: x-large;
+}
+main .title{
+    width: max-content;
+    border-bottom: 3px solid #CCB08A;
+}
+.logocofe{
+    display: flex;
+    justify-content: center;
+}
+.c-cofe{
+    color: #4F1F0F;
+}
+.zz{
+    z-index: 1;
+}
+@font-face {
+    font-family: moraba;
+    src: url(/fonts/Morabba-Bold.woff);
+}
+.moraba{
+    font-family: moraba;
+}
+@font-face{
+    font-family: nazanin;
+    src: url(/fonts/BNazanin.ttf);
+}
+.nazanin{
+    font-family: nazanin;
+    font-size: large;
+}
+.btn-outline-brown {
+    --bs-btn-color: #4F1F0F;
+  --bs-btn-border-color: #4F1F0F;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #4F1F0F;
+  --bs-btn-hover-border-color: #4F1F0F;
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4F1F0F;
+  --bs-btn-active-border-color: #4F1F0F;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #4F1F0F;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #4F1F0F;
+  --bs-gradient: none;
+}
+
+.my-link {
+    text-decoration: none;
+}
+.my-link:hover{
+    border-bottom: 2px solid #4F1F0F;
+    padding-bottom: 8px !important;
+    color: black;
+    font-weight: 700;
+}
+.baner{
+    background-image: url("../image/banner.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: bottom center;
+    height: 450px;
+    padding-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+.gradient{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, #CCB08A , #ffff0000);
+}
+#Menu .item .hover-box{
+    background: #CCB08Add;
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: moraba;
+    color: #4F1F0F;
+    opacity: 0;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+#Menu .hover-box:hover{
+    opacity: 1;
+}
+.em{
+    margin-left: 0;
+    margin-right: 0;
+}
+.sel{
+    text-align: right;
+    margin-right: 80px;
+    margin-top: 70px;
+}
+.sel .title{
+    margin: 0;
+    margin-bottom: 25px;
+
+}
+.btn-order2{
+    font-family: "sans";
+    color: #ffffff;
+    background-color: #4F1F0F;
+}
+.btn-order2:hover{
+    font-family: "sans";
+    color: #ffffff;
+    background-color: #40190c;
+    
+}
+.final{
+    background-color: #4F1F0F;
+    color: #ffffff;
+    font-family: "sans";
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
